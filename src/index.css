@@ -20,7 +20,7 @@ h1,h2{
 
 .observer{
     width: 200px;
-    height: 200px;
+    height: 100px;
     border: 1px solid red;
     padding: 5px;
     word-wrap: break-word;
