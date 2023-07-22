@@ -1,4 +1,4 @@
-class PlantillaPatronObservador{
+export class PlantillaPatronObservador{
 
     constructor(){
         this.observadores = []
