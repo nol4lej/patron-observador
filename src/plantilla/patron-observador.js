@@ -14,7 +14,12 @@ export class PlantillaPatronObservador{
 
     notificar(evento){
         this.observadores.forEach(observador => {
-            observador(evento)
+
+            if(typeof observador === "object"){
+                observador.notificar(evento)
+            } else {
+                observador(evento)
+            }
         })
     }
     
