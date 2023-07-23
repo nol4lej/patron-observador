@@ -22,4 +22,5 @@ class Famoso extends PlantillaPatronObservador{
 
 }
 
-const famosoObservable = new Famoso()
+export const famosoObservable = new Famoso()
+
